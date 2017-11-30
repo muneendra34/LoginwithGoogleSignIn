@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>ProjectA Register Form</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+	<link rel="stylesheet" href="css/2style.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+  <div id="login">
+   <span class="label label-primary" >ProjectA</span>
+  <br><img src="images/reg2.jpg" align="left" width="200" height="160"> 
+  <form id="login_form" action="RegServlet" method="post">
+  <div class="field_container">
+      <input type="text" name="fname" placeholder="First name" required="required">
+    </div>
+    <div class="field_container">
+      <input type="text" name="lname" placeholder="Last name" required="required">
+    </div>
+    <div class="field_container">
+      <input type="text" name="email" placeholder="Email Address" required="required">
+    </div>
+    
+    <div class="field_container">
+      <input type="Password" name="pass" placeholder="Password" required="required">
+      <button id="sign_in_button">
+        <span class="button_text">Sign up</span>
+      </button>
+    </div>
+          
+</form>
+  
+  <div id="dont_have_an_account">
+    <h2>
+      Already have an account ? <a href="login1.html" class="login_link">sign in</a>
+    </h2>
+  </div>
+</div>
+  
+  
+</body>
+</html>
